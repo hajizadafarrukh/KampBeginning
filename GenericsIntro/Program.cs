@@ -6,24 +6,29 @@ namespace GenericsIntro
     {
         static void Main(string[] args)
         {
-            MyList <string> isimler = new MyList<string>();
-            isimler.Plus("Faruk");
-            isimler.Plus("Engin");
-            isimler.Plus("hello");
-            isimler.Plus("Mirza");
 
-            Console.WriteLine(isimler.Uzunluk);
-            isimler.Plus("Mirza");
+            MenimListem<string> Adlar = new MenimListem<string>();
 
-            Console.WriteLine(isimler.Uzunluk);
-            isimler.Plus("Mirza");
+            Adlar.Plus("Elnur");
+            Adlar.Plus("Mirza");
+            Adlar.Plus("Ferrux");
+            Adlar.Plus("Engin");
 
-            Console.WriteLine(isimler.Uzunluk);
+            Console.WriteLine(Adlar.Uzunluk);
 
-            foreach (var isim in isimler.Items)
+            foreach (var ad in Adlar.adlar)
             {
-                Console.WriteLine(isim);
+                Console.WriteLine(ad);
             }
+
+
+            
+            //Console.WriteLine(isimler.Uzunluk);
+
+            //foreach (var isim in isimler.Items)
+            //{
+            //    Console.WriteLine(isim);
+            //}
 
         }
     }

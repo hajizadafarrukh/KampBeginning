@@ -19,15 +19,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DegerVeReferansTipler", "De
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork", "HomeWork\HomeWork.csproj", "{257CACA6-A3B0-4F0C-9986-C4F9C5383939}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP1", "OOP1\OOP1.csproj", "{3B6C0190-3DD3-49AD-823E-219CB1C541DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP1", "OOP1\OOP1.csproj", "{3B6C0190-3DD3-49AD-823E-219CB1C541DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\Collections.csproj", "{D47023CD-BADC-441C-8CD7-F879C7359FDA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collections", "Collections\Collections.csproj", "{D47023CD-BADC-441C-8CD7-F879C7359FDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericsIntro", "GenericsIntro\GenericsIntro.csproj", "{694F48DF-9B78-44F6-920B-0F60B151C97A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericsIntro", "GenericsIntro\GenericsIntro.csproj", "{694F48DF-9B78-44F6-920B-0F60B151C97A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructors", "Constructors\Constructors.csproj", "{64C5D2BA-58E2-478D-A07E-41E6FC574844}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Constructors", "Constructors\Constructors.csproj", "{64C5D2BA-58E2-478D-A07E-41E6FC574844}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generics\Generics.csproj", "{3683DA8E-7A0A-4461-A40C-20C2303AC31A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generics", "Generics\Generics.csproj", "{3683DA8E-7A0A-4461-A40C-20C2303AC31A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP2", "OOP2\OOP2.csproj", "{C731BB67-8474-41DA-91B5-75ED142D7CD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP3", "OOP3\OOP3.csproj", "{EAE41231-4809-4E0A-98E4-7BCA8E0B6FC3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +91,14 @@ Global
 		{3683DA8E-7A0A-4461-A40C-20C2303AC31A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3683DA8E-7A0A-4461-A40C-20C2303AC31A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3683DA8E-7A0A-4461-A40C-20C2303AC31A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C731BB67-8474-41DA-91B5-75ED142D7CD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C731BB67-8474-41DA-91B5-75ED142D7CD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C731BB67-8474-41DA-91B5-75ED142D7CD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C731BB67-8474-41DA-91B5-75ED142D7CD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAE41231-4809-4E0A-98E4-7BCA8E0B6FC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAE41231-4809-4E0A-98E4-7BCA8E0B6FC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAE41231-4809-4E0A-98E4-7BCA8E0B6FC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAE41231-4809-4E0A-98E4-7BCA8E0B6FC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
